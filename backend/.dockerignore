@@ -1,6 +1,5 @@
-   .git
-   .env
-   *.md
-   Dockerfile*
-   .dockerignore
-   *.exe
+  .git
+.env
+*.md
+Dockerfile*
+server-app
