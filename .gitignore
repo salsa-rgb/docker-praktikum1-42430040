@@ -1,0 +1,13 @@
+# File rahasia lokal (berisi password asli)
+.env
+
+# Biner hasil kompilasi lokal
+backend/server-app
+backend/main
+*.exe
+
+# Berkas editor dan sistem operasi
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
