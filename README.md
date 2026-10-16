@@ -98,6 +98,5 @@ Pada tantangan ini saya mengubah `docker-compose.yml` dengan tiga perbaikan: mem
 ---
 
 ## 3. Bukti Audit Silang (Peer-Review) di GitHub
-
-- **Tautan Pull Request (PR)**: [Isi URL PR Anda]
-- **Ringkasan Catatan Peer-Reviewer**: [Tuliskan hasil verifikasi dari rekan yang memeriksa PR Anda]
+- **Tautan Pull Request (PR)**: https://github.com/salsa-rgb/docker-praktikum1-42430040/pull/1
+- **Ringkasan Catatan Peer-Reviewer**: Rekan peer-reviewer (I Made Dedy Wanditya, NIM 42430042) menyetujui (approve) PR ini setelah meninjau bukti pengujian yang dilampirkan. Ia memverifikasi bahwa ukuran image turun dari 1,32 GB (single-stage) menjadi 26,5 MB (multi-stage) sehingga memenuhi target di bawah 100 MB, container multi-stage berjalan sebagai user non-root (`appuser`, UID 10001), endpoint `/healthz` menampilkan status healthy dengan NIM 42430040, dan dua instansi multi-stage berjalan bersamaan di port host 8081 dan 8082 dengan respons healthy.
